@@ -286,6 +286,9 @@ height: auto;
     .hamburger{
         display: block;
     }
+    #text-green{
+       padding-top: 100px;
+    }
 
 }
 @media (max-width:912px){
@@ -312,6 +315,7 @@ height: auto;
         font-size: 1em;
        
     }
+    
 }
 @media (max-width:766px){
     #rights-coca-cola{
