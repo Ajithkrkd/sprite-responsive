@@ -13,6 +13,15 @@ overflow-x: hidden;
 
 
 }
+/* #drop-down {
+    display: none;
+    background: #f2eee8;
+    margin-top:43px;
+    position: fixed;
+    top: 48px;
+    width: 100%;
+    height: 95vh;
+} */
 #text-celebration{
     font-weight: 900;
     letter-spacing: 5px;
@@ -57,6 +66,12 @@ overflow-x: hidden;
 }
 .nav-link:hover{
     color: #000;
+    transition: 0.5s;
+    
+}
+.social-down:hover{
+    transition: 0.5s;
+    transform: scale(1.5);
 }
 
 
@@ -173,10 +188,13 @@ p{  font-family: 'Anton', sans-serif;
     color: rgb(0,150,57);
 }
 #shop-btn:hover {
+    transition: 0.5s;
     background-color : rgb(66, 65, 65);
     color: #fff;
+    
 }
 #learn-more-btn:hover{
+    transition: 0.5s;
     background-color : rgb(66, 65, 65);
     color: #fff;
 }
@@ -276,7 +294,7 @@ height: auto;
 
 
 
-@media  (min-width:991px){
+@media  (min-width:992px){
     nav ul li  {
         display:block;
     }
@@ -285,6 +303,7 @@ height: auto;
     }
     .hamburger{
         display: block;
+        
     }
     #text-green{
        padding-top: 100px;
