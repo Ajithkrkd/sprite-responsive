@@ -13,15 +13,35 @@ overflow-x: hidden;
 
 
 }
-/* #drop-down {
-    display: none;
-    background: #f2eee8;
-    margin-top:43px;
+
+#cross{
+    color: #614343;
+}
+#drop-down {
+
+    z-index: 85;
+    
+    background-color: rgb(0,155,78);
+    margin-top: auto;
+    padding-top: 50px;
+    padding-left: 30px;
     position: fixed;
+    line-height: 50px;
     top: 48px;
     width: 100%;
-    height: 95vh;
-} */
+    height: auto;
+}
+
+.drop-list:hover{
+    color: rgb(12, 12, 12);
+    transition: 0.5s;
+    cursor: pointer;
+   
+}
+#hamburger{
+    list-style: none;
+    display: none;
+}
 #text-celebration{
     font-weight: 900;
     letter-spacing: 5px;
@@ -35,6 +55,7 @@ overflow-x: hidden;
 }
 .bottle-second-image{
     display: none;
+
 }
 #logo{
     width: 20vh;
@@ -53,9 +74,7 @@ overflow-x: hidden;
     padding: 15px;
    
 }
-.hamburger{
-    width: 8rem;
-}
+
 #social{
     gap:1.5em;
    
@@ -301,10 +320,7 @@ height: auto;
     #summer-log{
      width: 200px;
     }
-    .hamburger{
-        display: block;
-        
-    }
+   
     #text-green{
        padding-top: 100px;
     }
@@ -315,6 +331,11 @@ height: auto;
     display: none;
 } .bottle-second-image{
     display: block;
+   
+}
+#hamburger{
+    display: block;
+    
 }
 
 #text-celebration{

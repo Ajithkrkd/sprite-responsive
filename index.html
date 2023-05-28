@@ -17,9 +17,9 @@
    <header  class="main-section position-sticky top-0 ">
     
     <nav class="navigation-bar d-flex  pt-3"> 
-        <i class="fa-solid fa-bars ham-bur-log col-sm-4 hamburger"></i>
-        <!-- <li><i id="bars" onclick="openDropDown()" class="fa-solid fa-bars"></i></li>
-        <li><i id="cross" onclick="closeDropDown()" class="fa-solid fa-xmark "></i></li> -->
+        <!-- <i class="fa-solid fa-bars ham-bur-log col-sm-4 hamburger"></i> -->
+        <li id="hamburger" ><i id="bars" onclick="openDropDown()" class="fa-solid fa-bars"></i></li>
+        
         <img id="logo" class=" col-lg-4 col-sm-4" src="images/same-sprite.png" alt="">
   
         <ul id="navigation" class=" ms-4 d-flex me-lg-5 ">
@@ -41,17 +41,22 @@
       
     </nav>    
    </header>
+  
+
+
    <!-- drop-down-->
-   <!-- <div id="drop-down" class="collapse">
-    <ul class="m-0 p-0 d-flex flex-column justify-content-between">
-        <li><a href="#">Products</a></li>
-        <li><a href="#">Sprite Zero Sugar</a></li>
-        <li><a href="#"> The Creators</a></li>
-        <li><a href="#">Buy Now</a></li>
+   <div id="drop-down" class="collapse">
+    <ul class="mt-1 p-0 d-flex flex-column justify-content-between ">
+        
+        <li><a class="drop-list"  href="#">Products</a></li>
+        <li><a class="drop-list"  href="#">Sprite Zero Sugar</a></li>
+        <li><a class="drop-list"  href="#"> The Creators</a></li>
+        <li><a class="drop-list"  href="#">Buy Now</a></li>
+        <li><i id="cross" onclick="closeDropDown()">close</i></li>
         
     </ul>
    
-    </div> -->
+    </div> 
 
             <section class="container-fluid section1">
                 <div class="row">
@@ -64,7 +69,7 @@
                     <button id="learn-more-btn">LERAN MORE</button>
                  </div>
                      <div class="col-sm-12 col-lg-6">
-                            <img class=" title-image  img-fluid me-0" src="images/sprite-lymonade-bottles.png " alt="lymond-bottles">
+                            <img class=" title-image  img-fluid" src="images/sprite-lymonade-bottles.png " alt="lymond-bottles">
                             <img class="bottle-second-image img-fluid" src="images/bottile-small.png" alt="bottle-second-image">     
                         </div>
                                     </div> 
